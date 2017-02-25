@@ -1,0 +1,2 @@
+#!/bin/bash
+export volume=$1; /usr/lib/nagios/plugins/check_raid.pl -p mpt
